@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+    a{
+        font-size: 14px;
+    }
+    main{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    form{
+        width: 100%;
+        margin-top: 65px;
+    }
+    form [type="text"]{
+        align-self: center;
+        width: 350px;
+    }
+    form [type="submit"]{
+        align-self: center;
+        width: 150px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    img{
+        display: none;
+    }
+}
+@media screen and (max-width: 620px) {
+    ul{
+        margin-left: -35px;
+    }
+    p{
+        padding: 0 15px;
+    }
+}
